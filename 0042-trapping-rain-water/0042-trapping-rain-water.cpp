@@ -19,14 +19,14 @@ public:
                     maxleft = height[left];
                 else
                     trappedwater += maxleft-height[left];
-                left+=1;
+                left++;
             }
             else {
                 if(height[right]>=maxright)
                     maxright=height[right];
                 else
                     trappedwater += maxright-height[right];
-                right-=1;
+                right--;
                     
             }
         }
